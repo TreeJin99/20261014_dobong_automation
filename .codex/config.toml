@@ -1,0 +1,6 @@
+# 이 폴더(my-work)용 코덱스 설정. 「이 프로젝트를 신뢰」했을 때만 적용됩니다.
+# 작업 폴더 안에서만 쓰고, 웹 검색은 최신(live)으로 합니다.
+model_reasoning_effort = "low"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+web_search = "live"

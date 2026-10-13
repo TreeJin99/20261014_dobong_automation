@@ -1,0 +1,8 @@
+interface:
+  display_name: "2 반복 일 찾기"
+  short_description: "내 반복 일 표와 자동화 후보 1위"
+  brand_color: "#D24025"
+  default_prompt: "$routine 으로 내 반복 일을 찾아 주세요"
+
+policy:
+  allow_implicit_invocation: true
