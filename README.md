@@ -69,6 +69,7 @@ $start 로 처음부터 도와주세요
 ├── agents/openai.yaml           앱 화면에 보이는 이름 · 소개 · 기본 문장
 ├── references/platforms.md      플랫폼별 조사 방법 (필요할 때 읽는 부록)
 ├── scripts/suggest.mjs          네이버 · 구글 · 유튜브 자동완성 받아 오기 (실행하는 부록)
+├── scripts/trends.mjs           구글 트렌드 12개월 검색 흐름 (실행하는 부록)
 ├── scripts/to_docx.mjs          보고서를 워드 파일로 (실행하는 부록)
 └── assets/report-template.md    보고서 틀 (보고서가 매번 같은 모양인 이유)
 ```
