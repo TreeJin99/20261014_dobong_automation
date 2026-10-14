@@ -58,6 +58,12 @@ $start 로 처음부터 도와주세요
 ## 기술은 이렇게 생겼어요
 
 ```
+.agents/skills/start/
+├── SKILL.md                     매뉴얼 (입력 · 출력 · 순서 · 하지 말 것)
+├── agents/openai.yaml           앱 화면 설정
+├── references/questions.md      질문 넷과 번호 보기 (읽는 부록)
+└── assets/business-template.md  내 사업 한 장 틀 (틀 부록)
+
 .agents/skills/keyword/
 ├── SKILL.md                     매뉴얼 (맨 위 name · description = 이름표)
 ├── agents/openai.yaml           앱 화면에 보이는 이름 · 소개 · 기본 문장
