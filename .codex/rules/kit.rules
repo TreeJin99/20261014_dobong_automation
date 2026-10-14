@@ -1,0 +1,2 @@
+# 정해진 명령은 허락 창 없이 실행 (프로젝트를 신뢰했을 때만 적용)
+prefix_rule(pattern = ["node", ".agents/skills/keyword/scripts/suggest.mjs"], decision = "allow", justification = "키워드 자동완성 받아 오기")

@@ -1,6 +1,6 @@
 interface:
   display_name: "1 처음 시작"
-  short_description: "번호로 답하는 질문 셋으로 내 사업 한 장(하는 일 · 손님 · 채널) 만들기"
+  short_description: "질문 넷으로 내 사업 한 장(하는 일 · 동네 · 손님 · 채널)과 키워드 후보 셋"
   brand_color: "#D24025"
   default_prompt: "$start 로 처음부터 도와주세요"
 

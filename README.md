@@ -25,7 +25,7 @@
 
 ## 시작하기
 
-**준비물** · ChatGPT 앱(Codex) · 구글 계정
+**준비물** · ChatGPT 앱(Codex) · Node.js (10/12 에 설치한 것. 없으면 자동완성만 빠지고 보고서는 나와요)
 
 **1. 받기**
 1. 이 페이지 위 초록색 **Code** → **Download ZIP**
@@ -51,7 +51,7 @@ $start 로 처음부터 도와주세요
 
 | 단계 | 코덱스에 보내는 것 | 생기는 것 |
 |---|---|---|
-| 시작 | `$start 로 처음부터 도와주세요` | 질문 셋 (번호나 한 줄로 답하기) → `내사업.md` |
+| 시작 | `$start 로 처음부터 도와주세요` | 질문 넷(하는 일 · 동네 · 손님 · 채널) → `내사업.md` + 키워드 후보 셋 |
 | 키워드 보고서 | `$keyword 도봉구 반찬가게` (키워드만 내 것으로) | `키워드보고서.md` (1분 안팎) |
 | 반복 일 (선택) | `$routine 으로 내 반복 일을 찾아 주세요` | 반복 일 표 · 자동화 후보 1위 |
 
@@ -59,9 +59,11 @@ $start 로 처음부터 도와주세요
 
 ```
 .agents/skills/keyword/
-├── SKILL.md                    매뉴얼 (맨 위 name · description = 이름표)
-├── agents/openai.yaml          앱 화면에 보이는 이름 · 소개 · 기본 문장
-└── assets/report-template.md   보고서 틀 (보고서가 매번 같은 모양인 이유)
+├── SKILL.md                     매뉴얼 (맨 위 name · description = 이름표)
+├── agents/openai.yaml           앱 화면에 보이는 이름 · 소개 · 기본 문장
+├── references/platforms.md      플랫폼별 조사 방법 (필요할 때 읽는 부록)
+├── scripts/suggest.mjs          네이버 · 구글 · 유튜브 자동완성 받아 오기 (실행하는 부록)
+└── assets/report-template.md    보고서 틀 (보고서가 매번 같은 모양인 이유)
 ```
 
 `.agents` 는 숨김 폴더예요. 맥은 Finder 에서 ⌘ ⇧ . , 윈도는 탐색기 「보기 › 숨긴 항목」으로 보여요.
